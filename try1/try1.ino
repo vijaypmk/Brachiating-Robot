@@ -1,9 +1,18 @@
 int A,B,C,D,E,F,G; //motor pins
 int X,Y;  //magnet pins
-int M1,M2;//flag variables
+int M1=0,M2=0;//flag variables
 int M,N,O;//delay
+
 void setup()
 {  
+B=13;
+D=12;
+F=11;
+C=10;
+E=9;
+G=8;
+X=5;
+Y=4;
   pinMode(A,INPUT);  
   digitalWrite(A,1);
   pinMode(B,OUTPUT);  //motor for arm 1 
