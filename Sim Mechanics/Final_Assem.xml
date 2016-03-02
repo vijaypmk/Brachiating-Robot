@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PhysicalModelingXMLFile>
+
+  <formatVersion>"1.0.4"</formatVersion>
+
+  <internalVersion>1</internalVersion>
+
+  <createdUsing>"SimMechanics Link Version 4.5"</createdUsing>
+
+  <createdFrom>"SolidWorks 23.5.0"</createdFrom>
+
+  <createdOn>"03/01/16||23:50:19"</createdOn>
+
+  <createdBy>"No formal user defined!"</createdBy>
+
+  <name>"Final_Assem"</name>
+
+  <SimMechanics>
+    <name>"Final_Assem"</name>
+    <nodeID>"Final_Assem"</nodeID>
+    <bodies>
+      <Body>
+        <name>"37d-gearmotor-19-30-2"</name>
+        <nodeID>"37d-gearmotor-19-30-2"</nodeID>
+        <status>""</status>
+        <mass>0.0521793</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.66398e-005,-5.90905e-009,2.6858e-011,-5.90905e-009,1.65908e-005,2.77386e-007,2.6858e-011,2.77386e-007,8.18983e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>5.21793e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00985093</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-2::CG(AUTOGEN)"</nodeID>
+            <position>0.018685,0.299117,0.158042</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.238657,0.971104,0,-0.971104,-0.238657,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.0232642,0.279725,0.162833</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.238657,0.971104,0,-0.971104,-0.238657,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="7">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-2:-:Wheel Hub-2::37d-gearmotor-19-30-2(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.204758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="12">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-2:-:Magnet_Base_Assembly-1::37d-gearmotor-19-30-2(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - 37d-gearmotor-19-30-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.792157,0.819608,0.933333</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.4</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Magnet_Base_Assembly-2"</name>
+        <nodeID>"Magnet_Base_Assembly-2"</nodeID>
+        <status>""</status>
+        <mass>0.0426896</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.66317e-005,1.35832e-007,3.0866e-007,1.35832e-007,3.21707e-005,-5.81288e-006,3.0866e-007,-5.81288e-006,1.47883e-005</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>4.26896e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0179366</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-2::CG(AUTOGEN)"</nodeID>
+            <position>0.235937,0.139183,0.170118</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.532737,-0.846281,0,0,0,-1,0.846281,0.532737,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.195002,0.145169,0.19527</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.532737,-0.846281,0,0,0,-1,0.846281,0.532737,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="3">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-3:-:Magnet_Base_Assembly-2::Magnet_Base_Assembly-2(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.175302</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="6">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-2:-:New_Arm1-1::Magnet_Base_Assembly-2(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - Magnet_Base_Assembly-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.752941,0.752941,0.752941</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"37d-gearmotor-19-30-3"</name>
+        <nodeID>"37d-gearmotor-19-30-3"</nodeID>
+        <status>""</status>
+        <mass>0.0521793</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.66398e-005,-5.90905e-009,2.6858e-011,-5.90905e-009,1.65908e-005,2.77386e-007,2.6858e-011,2.77386e-007,8.18983e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>5.21793e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00985093</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-3::CG(AUTOGEN)"</nodeID>
+            <position>0.208253,0.12585,0.150586</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.0680316,0.997683,0,-0.997683,0.0680316,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-3::CS1(AUTOGEN)"</nodeID>
+            <position>0.206717,0.105983,0.155377</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.0680316,0.997683,0,-0.997683,0.0680316,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="4">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-3:-:Magnet_Base_Assembly-2::37d-gearmotor-19-30-3(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.175302</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="13">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-3:-:Wheel Hub-3::37d-gearmotor-19-30-3(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.197302</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - 37d-gearmotor-19-30-3.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.792157,0.819608,0.933333</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.4</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Wheel Hub-2"</name>
+        <nodeID>"Wheel Hub-2"</nodeID>
+        <status>""</status>
+        <mass>0.00252741</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.13169e-007,1.16414e-013,-2.88651e-010,1.16414e-013,1.04188e-007,3.75562e-014,-2.88651e-010,3.75562e-014,1.9447e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.52741e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00197735</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Wheel Hub-2::CG(AUTOGEN)"</nodeID>
+            <position>0.0249233,0.300745,0.198696</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Wheel Hub-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.195548</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="8">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-2:-:Wheel Hub-2::Wheel Hub-2(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.204758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="10">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm2-1:-:Wheel Hub-2::Wheel Hub-2(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.195548</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - Wheel Hub-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.666667,0.694118,0.764706</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Wheel Hub-3"</name>
+        <nodeID>"Wheel Hub-3"</nodeID>
+        <status>""</status>
+        <mass>0.00252741</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.13169e-007,1.16414e-013,-2.88651e-010,1.16414e-013,1.04188e-007,3.75562e-014,-2.88651e-010,3.75562e-014,1.9447e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.52741e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00197735</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Wheel Hub-3::CG(AUTOGEN)"</nodeID>
+            <position>0.214673,0.125386,0.19124</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Wheel Hub-3::CS1(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.188092</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="14">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-3:-:Wheel Hub-3::Wheel Hub-3(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.197302</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="18">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm1-1:-:Wheel Hub-3::Wheel Hub-3(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.188092</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - Wheel Hub-3.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.666667,0.694118,0.764706</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Magnet_Base_Assembly-1"</name>
+        <nodeID>"Magnet_Base_Assembly-1"</nodeID>
+        <status>""</status>
+        <mass>0.0426896</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.66317e-005,1.35832e-007,3.0866e-007,1.35832e-007,3.21707e-005,-5.81288e-006,3.0866e-007,-5.81288e-006,1.47883e-005</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>4.26896e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0179366</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0265531,0.325741,0.177574</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.997415,-0.07185,0,0,0,-1,0.07185,0.997415,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.00251016,0.2963,0.202726</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.997415,-0.07185,0,0,0,-1,0.07185,0.997415,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="11">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-2:-:Magnet_Base_Assembly-1::Magnet_Base_Assembly-1(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="24">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-1:-:New_Arm2-1::Magnet_Base_Assembly-1(AUTOGEN)"</nodeID>
+            <position>0.0313,0.213065,0.190214</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - Magnet_Base_Assembly-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.752941,0.752941,0.752941</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"New_Arm1-1"</name>
+        <nodeID>"New_Arm1-1"</nodeID>
+        <status>""</status>
+        <mass>0.0755805</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.54786e-005,1.9334e-008,-4.41918e-010,1.9334e-008,0.000320686,-9.16117e-013,-4.41918e-010,-9.16117e-013,0.000345806</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>7.55805e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0321219</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm1-1::CG(AUTOGEN)"</nodeID>
+            <position>0.127797,0.12539,0.185425</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm1-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="2">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Final_Assem/RootPart:-:New_Arm1-1::New_Arm1-1(AUTOGEN)"</nodeID>
+            <position>0.127797,0.12539,0.185425</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="5">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-2:-:New_Arm1-1::New_Arm1-1(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="15">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"Arduino-1:-:New_Arm1-1::New_Arm1-1(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="17">
+            <name>"CS5"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm1-1:-:Wheel Hub-3::New_Arm1-1(AUTOGEN)"</nodeID>
+            <position>0.215056,0.125386,0.188092</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="19">
+            <name>"CS6"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm1-1:-:Wheel Hub-1::New_Arm1-1(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.188092</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="21">
+            <name>"CS7"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-1:-:New_Arm1-1::New_Arm1-1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - New_Arm1-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.792157,0.819608,0.933333</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.4</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"RootPart"</name>
+        <nodeID>"Final_Assem/RootPart"</nodeID>
+        <status>""</status>
+        <mass>0</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0,0,0,0,0,0,0,0,0</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Final_Assem/RootPart::CG(AUTOGEN)"</nodeID>
+            <position>0.093921,0.186666,0.173137</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Final_Assem/RootPart::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="1">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Final_Assem/RootPart:-:New_Arm1-1::Final_Assem/RootPart(AUTOGEN)"</nodeID>
+            <position>0.127797,0.12539,0.185425</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="30">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Final_Assem/RootPart:-:RootGround::Final_Assem/RootPart(AUTOGEN)"</nodeID>
+            <position>0.093921,0.186666,0.173137</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>""</geometryFileName>
+      </Body>
+      <Body>
+        <name>"Arduino-1"</name>
+        <nodeID>"Arduino-1"</nodeID>
+        <status>""</status>
+        <mass>0.0122745</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.8226e-006,2.11858e-007,-3.32679e-007,2.11858e-007,8.15024e-006,-3.80359e-008,-3.32679e-007,-3.80359e-008,5.52236e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.22745e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0134264</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Arduino-1::CG(AUTOGEN)"</nodeID>
+            <position>0.119403,0.124563,0.17981</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999946,0.0104136,0,0,0,-1,-0.0104136,-0.999946,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Arduino-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.118883,0.12624,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999946,0.0104136,0,0,0,-1,-0.0104136,-0.999946,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="16">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Arduino-1:-:New_Arm1-1::Arduino-1(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - Arduino-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"37d-gearmotor-19-30-1"</name>
+        <nodeID>"37d-gearmotor-19-30-1"</nodeID>
+        <status>""</status>
+        <mass>0.0521793</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.66398e-005,-5.90905e-009,2.6858e-011,-5.90905e-009,1.65908e-005,2.77386e-007,2.6858e-011,2.77386e-007,8.18983e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>5.21793e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00985093</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0304754,0.125288,0.158042</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0143455,0.999897,0,-0.999897,-0.0143455,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0305798,0.105362,0.162833</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0143455,0.999897,0,-0.999897,-0.0143455,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="22">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-1:-:New_Arm1-1::37d-gearmotor-19-30-1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.182758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="27">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-1:-:Wheel Hub-1::37d-gearmotor-19-30-1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.204758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - 37d-gearmotor-19-30-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.792157,0.819608,0.933333</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.4</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"New_Arm2-1"</name>
+        <nodeID>"New_Arm2-1"</nodeID>
+        <status>""</status>
+        <mass>0.0762685</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.55705e-005,1.58092e-011,-1.62798e-012,1.58092e-011,0.000324926,2.73678e-011,-1.62798e-012,2.73678e-011,0.000350134</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>7.62685e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0320267</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm2-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0312997,0.213065,0.192882</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.0681958,-0.997672,0,0.997672,0.0681958,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm2-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0313,0.213065,0.190214</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.0681958,-0.997672,0,0.997672,0.0681958,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="9">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm2-1:-:Wheel Hub-2::New_Arm2-1(AUTOGEN)"</nodeID>
+            <position>0.0253067,0.300745,0.195548</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="23">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Magnet_Base_Assembly-1:-:New_Arm2-1::New_Arm2-1(AUTOGEN)"</nodeID>
+            <position>0.0313,0.213065,0.190214</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="25">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm2-1:-:Wheel Hub-1::New_Arm2-1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.195548</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - New_Arm2-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.792157,0.819608,0.933333</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.4</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Wheel Hub-1"</name>
+        <nodeID>"Wheel Hub-1"</nodeID>
+        <status>""</status>
+        <mass>0.00252741</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.13169e-007,1.16414e-013,-2.88651e-010,1.16414e-013,1.04188e-007,3.75562e-014,-2.88651e-010,3.75562e-014,1.9447e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.52741e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00197735</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Wheel Hub-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0369099,0.125386,0.198696</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,-0.000328532,0,0.000328532,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Wheel Hub-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.195548</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,-0.000328532,0,0.000328532,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="20">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm1-1:-:Wheel Hub-1::Wheel Hub-1(AUTOGEN)"</nodeID>
+            <position>0.127172,0.125386,0.188092</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="26">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"New_Arm2-1:-:Wheel Hub-1::Wheel Hub-1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.195548</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="28">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"37d-gearmotor-19-30-1:-:Wheel Hub-1::Wheel Hub-1(AUTOGEN)"</nodeID>
+            <position>0.0372933,0.125386,0.204758</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Final_Assem - Wheel Hub-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.666667,0.694118,0.764706</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+    </bodies>
+    <joints>
+      <SimpleJoint>
+        <name>"RootPart--New_Arm1-1"</name>
+        <nodeID>"Final_Assem/RootPart:-:New_Arm1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="1"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="2"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Magnet_Base_Assembly-2--37d-gearmotor-19-30-3"</name>
+        <nodeID>"37d-gearmotor-19-30-3:-:Magnet_Base_Assembly-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="3"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="4"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm1-1--Magnet_Base_Assembly-2"</name>
+        <nodeID>"Magnet_Base_Assembly-2:-:New_Arm1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="5"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="6"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>1,0,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"37d-gearmotor-19-30-2--Wheel Hub-2"</name>
+        <nodeID>"37d-gearmotor-19-30-2:-:Wheel Hub-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="7"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="8"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"spherical"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm2-1--Wheel Hub-2"</name>
+        <nodeID>"New_Arm2-1:-:Wheel Hub-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="9"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="10"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Magnet_Base_Assembly-1--37d-gearmotor-19-30-2"</name>
+        <nodeID>"37d-gearmotor-19-30-2:-:Magnet_Base_Assembly-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="11"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="12"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"37d-gearmotor-19-30-3--Wheel Hub-3"</name>
+        <nodeID>"37d-gearmotor-19-30-3:-:Wheel Hub-3"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="13"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="14"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"spherical"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm1-1--Arduino-1"</name>
+        <nodeID>"Arduino-1:-:New_Arm1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="15"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="16"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-1,0,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm1-1--Wheel Hub-3"</name>
+        <nodeID>"New_Arm1-1:-:Wheel Hub-3"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="17"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="18"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm1-1--Wheel Hub-1"</name>
+        <nodeID>"New_Arm1-1:-:Wheel Hub-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="19"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="20"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>1,0,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm1-1--37d-gearmotor-19-30-1"</name>
+        <nodeID>"37d-gearmotor-19-30-1:-:New_Arm1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="21"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="22"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm2-1--Magnet_Base_Assembly-1"</name>
+        <nodeID>"Magnet_Base_Assembly-1:-:New_Arm2-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="23"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="24"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>1,0,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"New_Arm2-1--Wheel Hub-1"</name>
+        <nodeID>"New_Arm2-1:-:Wheel Hub-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="25"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="26"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"37d-gearmotor-19-30-1--Wheel Hub-1"</name>
+        <nodeID>"37d-gearmotor-19-30-1:-:Wheel Hub-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="27"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="28"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"spherical"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootGround--RootPart"</name>
+        <nodeID>"Final_Assem/RootPart:-:RootGround"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="29"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="30"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+    </joints>
+    <grounds>
+      <Ground>
+        <name>"RootGround"</name>
+        <nodeID>"RootGround"</nodeID>
+        <status>""</status>
+        <frame>
+          <Frame ref="29">
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Final_Assem/RootPart:-:RootGround::RootGround(AUTOGEN)"</nodeID>
+            <position>0.093921,0.186666,0.173137</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frame>
+      </Ground>
+    </grounds>
+    <subsystems></subsystems>
+    <connectionPorts></connectionPorts>
+    <id>0</id>
+  </SimMechanics>
+
+</PhysicalModelingXMLFile>

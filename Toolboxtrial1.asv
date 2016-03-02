@@ -1,7 +1,0 @@
-l = Link([0, 0, 0, 0, 0],'standard');
-l(2) = Link([1, 1, 1, 1, 0]);
-R = SerialLink(l);
-%W = [1, 1, 1, 1, 1, 0];
-%R.plotopt= [1,1,1,1,1,1];
-R.plot([0,1],'workspace')
-%R.teach()

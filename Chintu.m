@@ -60,7 +60,7 @@ bot.plot([qb qb1 qb2 qb3],plotopt{:});
 hold on;
 
 %animation
-for k=1:10;
+for k=1:100;
 for i=1:199
 bot.animate(gait([q q1 q2 q3],i, 0, 0));
 hold on
